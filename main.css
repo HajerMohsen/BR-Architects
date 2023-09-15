@@ -1,0 +1,260 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+header{
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    box-shadow: 0 1px 10px 0 gray;
+}
+nav{
+    margin: 8px 30px ;
+    /* position: fixed; */
+    /* background-color: aqua ;z */
+}
+.nav-head{
+    display: flex;
+    justify-content: space-between;
+}
+nav p{
+    display: flex;
+    gap: 12px;
+    font-size: 22px;
+    padding: 10px;
+}
+.nav-head a{
+    text-decoration: none;
+    padding: 8px 20px;
+    font-size: 22px;
+    color: black;
+    /* background-color: brown; */
+}
+.div-link{
+    margin: 10px 0;
+    /* background-color: blue; */
+}
+.nav-head a:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+nav p:hover{
+    background-color: rgba(128, 128, 128, 0.171);
+}
+.div-architect{
+    height: 120vh;
+    background-image: url(./architect.jpg);
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.div-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    font-size: 34px;
+}
+.div-p span{
+    background-color: black;
+    opacity: 0.8;
+    background-image: none;
+    padding: 10px;
+}
+.div-p p{
+    color: white;
+}
+.project{
+    margin: 20px 25px;
+    padding-bottom: 10px ;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.404);
+    font-size: 22px;
+}
+.pictures{
+    margin: 20px 35px;
+    display: flex;
+}
+.pictures-1{
+    margin: 20px 35px;
+    display: flex;
+}
+.pic5{
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px;
+    background-image: url(./house5.jpg);
+    background-size: cover;
+}
+.pic5 p{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px;
+}
+.pic2{
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px;
+    background-image: url(./house2.jpg);
+    background-size: cover;
+}
+.pic2 p{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px;
+}
+.pic3{
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px;
+    background-image: url(./house3.jpg);
+    background-size: cover;
+}
+.pic3 p{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px;
+}
+.pic4{
+    width: 300px;
+    height: 200px;
+    margin: 10px 20px;
+    background-image: url(./house4.jpg);
+    background-size: cover;
+}
+.pic4 p{
+    font-size: 18px;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    padding: 5px 15px;
+}
+.about-p{
+    margin: 20px 25px;
+    font-size: 18px ;
+}
+.teams{
+    display: flex;
+    margin: 40px 30px;
+}
+.team2{
+    width: 325px;
+    margin-right: 15px;
+    /* background-color: aqua; */
+}
+.team2 img{
+    height: 35vh;
+    width: 100%;
+}
+.team1{
+    width: 325px;
+    margin-right: 15px;
+    /* background-color: aqua; */
+}
+.team1 img{
+    height: 35vh;
+    width: 100%;
+}
+.team3{
+    width: 325px;
+    margin-right: 15px;
+    /* background-color: aqua; */
+}
+.team3 img{
+    height: 35vh;
+    width: 100%;
+}
+.team4{
+    width: 325px;
+    margin-right: 15px;
+    /* background-color: aqua; */
+}
+.team4 img{
+    height: 35vh;
+    width: 100%;
+}
+.desc{
+    margin-top: 10px ;
+}
+.desc h4{
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+.desc-title{
+    opacity: 0.6;
+    margin-bottom: 10px;
+}
+.desc-p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.desc button{
+   display: block;
+   width: 100%;
+   padding: 10px 0;
+   border: none;
+   font-size: 18px;
+}
+.desc button:hover{
+    background-color: rgba(128, 128, 128, 0.5);
+}
+.contact-p{
+    margin: 20px 25px;
+    font-size: 20px;
+}
+input{
+    width: 1300px;
+    display: block;
+    padding: 12px 10px;
+    margin: 20px 25px ;
+}
+/* form{
+    background-color: aquamarine;
+} */
+form button{
+    margin: 10px 25px;
+    padding: 12px 20px;
+    border: none;
+    color: white;
+    background-color: black;
+}
+form button:hover{
+    background-color: rgb(128, 128, 128);
+}
+.map{
+    margin: 30px 25px;
+}
+.map img{
+    width: 100%;
+}
+footer{
+    height: 18vh;
+    background-color: black;
+}
+footer div p{
+    color: white;
+}
+footer div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+footer div p a{
+    color: white;
+}
+
+
+
+
+
+/* @media (max-width:960px) {
+     main{
+        flex-direction: column;
+        width: 100%;
+     }       
+} */
